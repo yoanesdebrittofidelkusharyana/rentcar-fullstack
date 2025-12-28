@@ -1,0 +1,94 @@
+/* RentCar.css - Halaman Konfirmasi Sewa */
+.rent-container {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.rent-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+}
+
+.rent-header {
+  background-color: #0d6efd;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.rent-body {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.rent-image-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.rent-image-section img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.rent-info-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 8px;
+}
+
+.label { color: #666; font-weight: 600; }
+.value { color: #333; font-weight: bold; }
+
+.total-box {
+  background-color: #e8f5e9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 1px solid #c8e6c9;
+}
+
+.total-price {
+  color: #198754;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: right;
+  margin: 5px 0 0 0;
+}
+
+.btn-confirm {
+  width: 100%;
+  padding: 15px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background 0.2s;
+}
+
+.btn-confirm:hover { background-color: #0b5ed7; }
+.btn-cancel {
+  background: none; border: none; color: #dc3545;
+  text-decoration: underline; cursor: pointer; display: block;
+  margin: 15px auto; font-weight: 600;
+}
